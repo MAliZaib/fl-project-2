@@ -55,15 +55,16 @@ code {
 }
 
 .bg-image{
-  height: 550px;
+  height: 450px;
   width: 100%;
 }
 @media only screen and (max-width: 1023px) {
   .bg-image{
-    height: 900px;
+    height: 500px;
     width: 100%;
   }
 }
+
 
 .bnb-border{
   border: 1px solid #1ed5a4;

@@ -81,7 +81,7 @@ const hideModal = () => {
                   </button>
               </div>
           </div>
-          <div className=" pb-16 sm:pb-40 md:pb-48 lg:pb-20 relative">
+          <div className="sm:pb-24 md:pb-28 lg:pb-16 relative">
               <div id="menu" className="hidden lg:hidden bg-gray-900 py-8 px-4 absolute z-20 top-12 right-16 md:right-32 w-4/12 shadow-2xl">
                   <ul className="flex flex-col space-y-8">
                       <li className="border-b border-gray-600 pb-2">
@@ -179,13 +179,13 @@ const hideModal = () => {
                           </button>
                       </div>
                   </div>
-                  <div className="flex flex-col space-y-8 lg:space-y-0 lg:flex-row items-strech justify-center px-14 lg:-mt-4 ">
-                      <div className="flex flex-col justify-center lg:w-3/5">
+                  <div className="flex flex-col space-y-8 lg:space-y-0  px-14 lg:-mt-4 ">
+                      <div className="flex flex-col justify-center mt-24 ">
                           <h1 className="text-4xl leading-normal font-medium text-white">NO LOSS JACKPOT By LOVEPOT</h1>
                           <p className="text-base leading-normal text-gray-300 mt-4 lg:w-8/12">The Love Pot Collects The Total Yield (Profits) Accrued Over A Set Period Of Time Based On The Total Stake, And Distributes These Profits To One Of The Pot Participants.</p>
-                          <button className="rounded-full py-2 px-8 bg-button-image w-10/12 lg:w-6/12 mt-8 text-white hover:underline">Presale Starting Soon</button>
+                          <button className="rounded-full py-2 px-8 bg-button-image w-10/12 lg:w-3/12 mt-8 text-white hover:underline">Presale Starting Soon</button>
                       </div>
-                      <div className="lg:w-2/5 h-full ">
+                      {/* <div className="lg:w-2/5 h-full ">
                           <div className="w-full h-full rounded-lg shadow-2xl bg-gradient-to-b from-indigo-500 via-indigo-500 to-purple-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover-bg">
                               <div className="flex items-center justify-between p-4">
                                   <p>Farming</p>
@@ -219,12 +219,12 @@ const hideModal = () => {
                                   <p className="text-base"> 100,000.000 BUNNY</p>
                               </div>
                           </div>
-                      </div>
+                      </div> */}
                   </div>
               </div>
           </div>
           <div className="content-area">
-              <div className="container mx-auto py-12 flex flex-col justify-center items-center text-center">
+              <div className="container mx-auto py-16 sm:py-12 flex flex-col justify-center items-center text-center">
                   <h1 className="text-5xl gray-600 text-white">Buy BULLROCK (BLRS)</h1>
                   <p className="text-lg mt-4 text-white">MIN: ~0.005 BNB / MAX: ~10 BNB (+GAS BNB / BEP20)</p>
                   <div className="mt-8 flex items-center bg-gray-900 p-2 rounded-full space-x-2">
