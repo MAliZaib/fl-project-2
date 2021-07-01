@@ -23,9 +23,10 @@ code {
 }
 
 .content-area{
-  background: linear-gradient(
-    135deg
-    , rgb(0, 56, 255) 0.59%, rgb(63, 121, 234) 53.88%, rgb(89, 29, 186) 100%);
+  background-color: #1e134b;
+}
+.content-area-button{
+  background-color: #E21B63;
 }
 .modalbox-height{
   height: 500px;
@@ -36,6 +37,14 @@ code {
     height: 400px;
     
   }
+}
+.shadow-css{
+  box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+  
+}
+.shadow-css1{
+  box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+  background: rgb(10, 36, 68);
 }
 
 .hpRDUw {
@@ -53,16 +62,7 @@ code {
 }
 
 .gradient-border{
-  border-width: 2px;
-    border-style: solid;
-    border-color: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-image-source: linear-gradient(
-140deg
-, rgb(0, 226, 206), rgb(116, 63, 229));
-    border-image-slice: 1;
+  border: 2px solid #E21B63;
 }
 
 .bg-image{
@@ -156,4 +156,7 @@ code {
 }
 .bg-opacity-5{
   --tw-bg-opacity: 0.01;
+}
+.border-rounded-table{
+  border: 5px solid  #e21b63
 }

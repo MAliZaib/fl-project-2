@@ -81,7 +81,7 @@ function App() {
                     </button>
                 </div>
             </div>
-            <div className="sm:pb-8 lg:pb-16 relative">
+            <div className="pb-4 sm:pb-8 lg:pb-16 relative">
 
                 <img src="https://i.ibb.co/bQrWLjY/hero-bg.jpg" alt="" className="absolute inset-0 object-fill object-center bg-image" />
                 <div className="container mx-auto xl:px-20 relative z-10">
@@ -189,35 +189,35 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="content-area">
+            <div style={{backgroundColor: "#1e134b"}}>
                 <div className="container mx-auto py-14 sm:py-12 flex flex-col justify-center items-center text-center">
                     <h1 className="text-2xl md:text-4xl lg:text-5xl gray-600 text-white">Buy BULLROCK (BLRS)</h1>
                     <p className="text-xs sm:text-base lg:text-lg mt-4 text-white">MIN: ~0.005 BNB / MAX: ~10 BNB (+GAS BNB / BEP20)</p>
                     <div className="px-2">
-                    <div className="mt-8 flex flex-col sm:flex-row items-center bg-gray-900 py-2 px-4 md:py-2 rounded-full sm:space-x-2">
+                    <div className="mt-8 flex flex-col sm:flex-row items-center shadow-css1 py-2 px-4 md:py-2 rounded-full sm:space-x-2">
                         <div className="flex items-center space-x-2">
                             <img src="https://bullrock.vip/assets/Group.svg" alt="" />
-                            <p className="text-base lg:text-lg font-black italic" style={{ color: "rgb(116, 63, 229)" }}>
+                            <p className="text-base lg:text-lg font-black italic" style={{ color: "rgb(116, 63, 229)"}}>
                                 Attention:{" "}
                             </p>
                         </div>
                         <p className="text-sm md:text-base font-black italic text-white">For every 1000 BNB of purchases, its price increases</p>
                     </div>
                     </div>
-                    <div className="mt-6 md:mt-12 border-4 w-11/12 lg:w-5/12 border-black rounded-3xl content-area p-4 md:p-6 flex flex-col justify-center items-center">
+                    <div className="mt-6 md:mt-12 w-11/12 lg:w-5/12 border-rounded-table rounded-3xl content-area p-4 md:p-6 flex flex-col justify-center items-center shadow-css">
                         <div className="flex items-center justify-between w-full">
                             <h2 className="text-xl md:text-2xl text-white font-bold">Swap</h2>
                             <div>
                                 <img src="https://bullrock.vip/assets/Setting.svg" alt="" />
                             </div>
                         </div>
-                        <div className="mt-4 md:mt-6 bg-gray-900 pt-4 md:pt-6 px-2 md:px-4 pb-2 md:pb-4 w-full rounded-2xl md:rounded-3xl flex justify-between shadow-2xl ">
+                        <div className="mt-4 md:mt-6 pt-4 md:pt-6 px-2 md:px-4 pb-2 md:pb-4 w-full rounded-2xl md:rounded-3xl flex justify-between shadow-css1 ">
                             <div className="flex flex-col justify-start space-y-4 md:space-y-8">
                                 <p className="text-gray-600 text-lg text-left">From</p>
                                 <input id="valid-amount" type="text" placeholder="0" className="text-3xl focus:outline-none text-white bg-transparent w-40" />
                             </div>
                             <div className="flex flex-col justify-end relative">
-                                <button onClick={toggleList} className="content-area flex items-center rounded-lg py-2 md:py-3 px-1 md:px-2 space-x-4">
+                                <button onClick={toggleList} className="content-area-button flex items-center rounded-lg py-2 md:py-3 px-1 md:px-2 space-x-4">
                                     <div>
                                         <img src="https://bullrock.vip/assets/bnb.svg" alt="" />
                                     </div>
@@ -243,13 +243,13 @@ function App() {
                         <div className="mt-4 md:mt-8">
                             <img src="https://bullrock.vip/assets/Arrow%202.svg" alt="" />
                         </div>
-                        <div className="mt-4 md:mt-8 bg-gray-900 pt-6 px-4 pb-4 w-full rounded-3xl flex justify-between shadow-2xl ">
+                        <div className="mt-4 md:mt-8 bg-gray-900 pt-6 px-4 pb-4 w-full rounded-3xl flex justify-between shadow-2xl shadow-css1">
                             <div className="flex flex-col justify-start space-y-4 md:space-y-8">
                                 <p className="text-gray-600 text-lg text-left">To</p>
                                 <input type="text" value={0} className="text-3xl focus:outline-none text-white bg-transparent w-10" />
                             </div>
                             <div className="flex flex-col justify-end relative">
-                                <button className="content-area flex items-center rounded-lg py-2 md:py-3 px-1 md:px-4 space-x-8 w-full">
+                                <button className="content-area-button flex items-center rounded-lg py-2 md:py-3 px-1 md:px-4 space-x-8 w-full">
                                     <div>
                                         <img src="https://bullrock.vip/assets/bull-rock.svg" alt="" className="" />
                                     </div>
@@ -266,7 +266,7 @@ function App() {
                             <p className="text-white">Price</p>
                             <p className="text-white font-medium">1445240000 BLRS per BNB</p>
                         </div>
-                        <button onClick={checkValue} className="hover:bg-transparent mt-6 md:mt-10 lg:mt-6 w-full rounded-full bg-black shadow-inner py-2 lg:py-4 text-white text-xl sm:text-2xl lg:text-3xl uppercase">
+                        <button onClick={checkValue} className=" mt-6 md:mt-10 lg:mt-6 w-full rounded-full content-area-button shadow-inner py-2 lg:py-4 text-white text-xl sm:text-2xl lg:text-3xl uppercase">
                             Buy Bullrock Swap
                         </button>
                     </div>
@@ -276,7 +276,7 @@ function App() {
                     <div className="mt-7 md:mt-14">
                         <p className="text-sm sm:text-base lg:text-lg font-bold text-white">TOKEN ADDRESS: 0xF915E8306028a0F99A548f31317b056A52cfbaC1</p>
                     </div>
-                    <div className="mt-8 md:mt-10 lg:mt-20 bg-gray-900 p-2 flex flex-col sm:flex-row justify-center rounded-xl mx-4 lg:w-5/12">
+                    <div className="mt-8 md:mt-10 lg:mt-20 bg-gray-900 shadow-css1 p-2 flex flex-col sm:flex-row justify-center rounded-xl mx-4 lg:w-5/12">
                         <p className="italic text-sm" style={{ color: "rgb(116, 63, 229)" }}>
                             Attention:
                         </p>
@@ -295,20 +295,20 @@ function App() {
 
                     <div className="mt-8 md:mt-14 lg:mt-24 border-t-2 border-b-2  border-white px-4 md:px-10 py-6 md:py-10 lg:py-20 lg:w-8/12 flex flex-col items-center">
                         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white text-center">Invite by</h2>
-                        <input type="text" className="focus:outline-none w-11/12 lg:w-10/12 mt-3 lg:mt-6 gradient-border bg-gray-900 py-2 lg:py-4 px-4 sm:px-8 text-center text-base md:text-xl lg:text-2xl text-gray-600" value={"CONNECT YOUR WALLET"} />
+                        <input type="text" className="focus:outline-none w-11/12 lg:w-10/12 mt-3 lg:mt-6 gradient-border shadow-css1 bg-gray-900 py-2 lg:py-4 px-4 sm:px-8 text-center text-base md:text-xl lg:text-2xl text-gray-600" value={"CONNECT YOUR WALLET"} />
                         <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white text-center lg:w-11/12 mt-4 md:mt-8">For referring another partner, you automatically receive 5,000 BLRS</p>
                     </div>
 
                     <div className="mt-8 sm:mt-14 lg:mt-24 w-full lg:w-8/12 flex flex-col items-center px-4 md:px-10">
                         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white text-center">My referral link</h2>
-                        <input type="text" className="w-11/12 lg:w-10/12 mt-3 lg:mt-6 gradient-border bg-gray-900 py-2 lg:py-4 px-8 text-center text-base md:text-xl lg:text-2xl text-gray-600" value={"CONNECT YOUR WALLET"} />
-                        <button onClick={CopyLink} className="uppercase mt-6 lg:mt-12 py-2  md:py-3 shadow-2xl focus:outline-none text-white px-8 content-area rounded-md ">
+                        <input type="text" className="w-11/12 lg:w-10/12 mt-3 lg:mt-6 gradient-border bg-gray-900 py-2 shadow-css1 lg:py-4 px-8 text-center text-base md:text-xl lg:text-2xl text-gray-600" value={"CONNECT YOUR WALLET"} />
+                        <button onClick={CopyLink} className="uppercase mt-6 lg:mt-12 py-2 content-area-button  md:py-3 shadow-2xl focus:outline-none text-white px-8 content-area rounded-md ">
                             Copy My referral Link
                         </button>
                     </div>
                 </div>
             </div>
-            <div className="py-8 flex space-x-10 justify-center items-center w-full bg-gray-900">
+            <div className="py-8 flex space-x-10 justify-center items-center w-full content-area">
                 <a href="javascript:void(0)" className="text-white hover:underline">
                     Chat
                 </a>
