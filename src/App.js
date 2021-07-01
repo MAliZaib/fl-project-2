@@ -194,7 +194,7 @@ function App() {
                     <h1 className="text-2xl md:text-4xl lg:text-5xl gray-600 text-white">Buy BULLROCK (BLRS)</h1>
                     <p className="text-xs sm:text-base lg:text-lg mt-4 text-white">MIN: ~0.005 BNB / MAX: ~10 BNB (+GAS BNB / BEP20)</p>
                     <div className="px-2">
-                    <div className="mt-8 flex flex-col sm:flex-row items-center bg-gray-900 p-2 rounded-full sm:space-x-2">
+                    <div className="mt-8 flex flex-col sm:flex-row items-center bg-gray-900 py-2 px-4 md:py-2 rounded-full sm:space-x-2">
                         <div className="flex items-center space-x-2">
                             <img src="https://bullrock.vip/assets/Group.svg" alt="" />
                             <p className="text-base lg:text-lg font-black italic" style={{ color: "rgb(116, 63, 229)" }}>
