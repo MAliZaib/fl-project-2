@@ -1,0 +1,103 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-button-image{
+  background-image: linear-gradient(
+    40deg
+    , #E21B63 47%, #9029F2 100%);
+}
+
+.content-area{
+  background: linear-gradient(
+    135deg
+    , rgb(0, 56, 255) 0.59%, rgb(63, 121, 234) 53.88%, rgb(89, 29, 186) 100%);
+}
+
+.hpRDUw {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0 240 255) 0px 0px 10px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.gradient-border{
+  border-width: 2px;
+    border-style: solid;
+    border-color: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-source: linear-gradient(
+140deg
+, rgb(0, 226, 206), rgb(116, 63, 229));
+    border-image-slice: 1;
+}
+
+.bg-image{
+  height: 550px;
+  width: 100%;
+}
+@media only screen and (max-width: 1023px) {
+  .bg-image{
+    height: 900px;
+    width: 100%;
+  }
+}
+
+.bnb-border{
+  border: 1px solid #1ed5a4;
+}
+.button-md-bg{
+  background-color: #1ed5a4;
+}
+
+
+.modal-box{
+  border-width: 2px;
+  border-style: solid;
+  border-color: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+
+  border-image-source: linear-gradient(
+140deg
+, rgb(0, 226, 206), rgb(116, 63, 229));
+  border-image-slice: 1;
+  
+}
+
+.modal-button1{
+  border-width: 2px;
+  border-style: solid;
+  border-color: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+
+  border-image-source: linear-gradient(
+140deg
+, rgb(0, 226, 206), rgb(116, 63, 229));
+  border-image-slice: 1;
+}
